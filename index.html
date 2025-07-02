@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>git initUniCricle AGU</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+      padding: 40px 0;
+    }
+    .team-member {
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      margin: 0 auto;
+      max-width: 300px;
+    }
+    .member-img img {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+    .member-info h4 {
+      margin-bottom: 5px;
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+    .member-info span {
+      display: inline-block;
+      background: #3b82f6;
+      color: #fff;
+      padding: 5px 12px;
+      border-radius: 5px;
+      font-size: 0.9rem;
+    }
+    .social a {
+      color: #444;
+      margin: 0 5px;
+      font-size: 1.1rem;
+    }
+    .swiper {
+      width: 100%;
+      padding: 40px 0;
+    }
+    .swiper-button-next,
+    .swiper-button-prev {
+      color: #333;
+    }
+    @media (max-width: 767px) {
+      .team-member {
+        max-width: 80%;
+      }
+      .member-img img {
+        width: 120px;
+        height: 120px;
+      }
+      .member-info h4 {
+        font-size: 1rem;
+      }
+      .member-info span {
+        font-size: 0.8rem;
+      }
+      .social a {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+
+<body class="index-page scrolled" data-aos-easing="ease-in-out" data-aos-duration="600" data-aos-delay="0">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <h1 class="sitename">UniCricle</h1>
+      </a>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero">Trang chủ</a></li>
+          
+          <li><a href="#portfolio">Vật Phẩm</a></li>
+          <li><a href="#portfolio">Sách, giáo trình</a></li>
+          <li><a href="#about" class="active">Chúng tôi</a></li>
+          <li><a href="#contact">Đóng góp</a></li>
+          <!-- <li><a href="#portfolio">Vinh Danh</a></li> -->
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <section id="hero" class="hero section accent-background">
+      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in" class="aos-init aos-animate">
+      <div class="container text-center aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+        <h2>Xin chào với UniCricle AGU</h2>
+        <p>Đổi để dùng - Sống để xanh</p>
+        <a href="#about" class="btn-scroll" title="Scroll Down"><i class="bi bi-chevron-down"></i></a>
+      </div>
+    </section>
+
+    <section id="about" class="about section">
+      <div class="container">
+        <div class="row gy-5">
+          <div class="content col-xl-5 d-flex flex-column aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+            <h3>UniCricle AGU</h3>
+            <p>UniCricle là nền tảng hỗ trợ sinh viên Trường Đại học An Giang chia sẻ và trao đổi vật phẩm, sách, giáo trình, tài liệu học tập.</p>
+            <p>Chúng tôi hướng đến việc tái sử dụng tài nguyên, tiết kiệm chi phí học đường, và cùng nhau xây dựng một môi trường đại học phát triển bền vững, văn minh và đoàn kết.</p>
+            <a href="#" class="about-btn align-self-center align-self-xl-start"><span>UniCricle</span> <i class="bi bi-chevron-right"></i></a>
+          </div>
+          <div class="col-xl-7 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+            <div class="row gy-4">
+              <div class="col-md-6 icon-box position-relative">
+                <i class="bi bi-box-seam"></i>
+                <h4>Trao đổi vật phẩm</h4>
+                <p>Chia sẻ hoặc đổi sách, đồ dùng học tập, vật phẩm cá nhân với bạn bè trong trường.</p>
+              </div>
+              <div class="col-md-6 icon-box position-relative">
+                <i class="bi bi-book-half"></i>
+                <h4>Sách, giáo trình</h4>
+                <p>Chia sẻ và nhận lại sách, giáo trình cũ từ các môn học đã qua – giúp tiết kiệm chi phí, giảm lãng phí và cùng nhau phát triển bền vững.</p>
+              </div>
+              <div class="col-md-6 icon-box position-relative">
+                <i class="bi bi-journal-text"></i>
+                <h4>Tài liệu tham khảo</h4>
+                <p>Tải lên và tìm kiếm đề cương, báo cáo, bài tập, kinh nghiệm học tập từ các anh chị khóa trước để học tập hiệu quả hơn.</p>
+              </div>
+              <div class="col-md-6 icon-box position-relative">
+                <i class="bi bi-star"></i>
+                <h4>Vinh danh đóng góp</h4>
+                <p>Ghi nhận những sinh viên tích cực chia sẻ tài liệu, vật phẩm hoặc hỗ trợ cộng đồng. Tích lũy điểm đóng góp để được vinh danh và nhận phần quà ý nghĩa.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="stats" class="stats section light-background">
+      <div class="container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-person-check-fill"></i>
+              <span data-purecounter-start="0" data-purecounter-end="250803" data-purecounter-duration="0" class="purecounter">250803</span>
+              <p><strong>Người Dùng</strong><br><span>Sinh viên đã sử dụng</span></p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-box-seam"></i>
+              <span data-purecounter-start="0" data-purecounter-end="1911" data-purecounter-duration="0" class="purecounter">1911</span>
+              <p><strong>Vật Phẩm</strong><br><span>Đã được trao đổi</span></p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-book-half"></i>
+              <span data-purecounter-start="0" data-purecounter-end="3650" data-purecounter-duration="0" class="purecounter">3650</span>
+              <p><strong>Sách, giáo trình</strong><br><span>Chia sẻ bởi sinh viên</span></p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-folder2-open"></i>
+              <span data-purecounter-start="0" data-purecounter-end="9876" data-purecounter-duration="0" class="purecounter">9876</span>
+              <p><strong>Sách Tham Khảo</strong><br><span>Được tải lên từ cộng đồng</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="call-to-action" class="call-to-action section accent-background">
+      <img src="assets/img/agu_br.jpg" alt="">
+      <div class="container">
+        <div class="row justify-content-center aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-10">
+            <div class="text-center">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="portfolio section">
+      <div class="container section-title aos-init aos-animate" data-aos="fade-up">
+        <h2>Danh sách mới nhất</h2>
+      </div>
+      <div class="container">
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+          <ul class="portfolio-filters isotope-filters aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-product">Vật Phẩm</li>
+            <li data-filter=".filter-books">Sách, GT</li>
+            <li data-filter=".filter-branding">VP Khác</li>
+          </ul>
+          <div class="row gy-4 isotope-container aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 1</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="assets/img/portfolio/app-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/portfolio/product-1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Product 1</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="assets/img/portfolio/product-1.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/portfolio/branding-1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Branding 1</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="assets/img/portfolio/branding-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+              <img src="assets/img/portfolio/books-1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Books 1</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="assets/img/portfolio/books-1.jpg" title="Books 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/portfolio/app-2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 2</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="assets/img/portfolio/app-2.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Product 2</ Welfare
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="assets/img/portfolio/product-2.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/portfolio/branding-2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Branding 2</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="assets/img/portfolio/branding-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+              <img src="assets/img/portfolio/books-2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Books 2</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="assets/img/portfolio/books-2.jpg" title="Books 2" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 3</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="assets/img/portfolio/app-3.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/portfolio/product-3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Product 3</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="assets/img/portfolio/product-3.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/portfolio/branding-3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Branding 3</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="assets/img/portfolio/branding-3.jpg" title="Branding 3" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+              <img src="assets/img/portfolio/books-3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Books 3</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="assets/img/portfolio/books-3.jpg" title="Books 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services section">
+      <div class="container section-title aos-init aos-animate" data-aos="fade-up">
+        <h2>Đóng góp, Trao đổi</h2>
+        <h2>Vật Phẩm, sách, giáo trình</h2>
+        <p>Cùng nhau chia sẻ tài nguyên học tập – kết nối cộng đồng sinh viên thân thiện và bền vững</p>
+      </div>
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-xl-3 col-md-6 d-flex aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-box-seam icon"></i></div>
+              <h4><a href="http://localhost/UniCricle/public/vatphams" class="stretched-link">Vật phẩm</a></h4>
+              <p>Trao đổi hoặc tặng lại đồ dùng cá nhân, đồ cũ còn sử dụng tốt như sách, balo, thiết bị học tập.</p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 d-flex aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-book icon"></i></div>
+              <h4><a href="http://localhost/UniCricle/public/vatphams?the_loai=Gi%C3%A1o%20tr%C3%ACnh%20gi%E1%BA%A5y" class="stretched-link">Sách, giáo trình</a></h4>
+              <p>Chia sẻ sách, giáo trình học, tài liệu in ấn đã qua sử dụng cho các bạn sinh viên khóa sau.</p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 d-flex aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-file-earmark-text icon"></i></div>
+              <h4><a href="http://localhost/UniCricle/public/vatphams?the_loai=File" class="stretched-link">Tài liệu File</a></h4>
+              <p>Upload và chia sẻ file PDF, Word, slide bài giảng, đồ án và đề thi cũ để hỗ trợ học tập.</p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 d-flex aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-people icon"></i></div>
+              <h4><a href="#!" class="stretched-link">Góp phần cộng đồng</a></h4>
+              <p>Chung tay xây dựng nền tảng UniCricle – vì một cộng đồng sinh viên chia sẻ và phát triển bền vững.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="testimonials section light-background">
+      <div class="container section-title aos-init aos-animate" data-aos="fade-up">
+        <h2>Nhận xét từ người dùng</h2>
+        <p>Những chia sẻ chân thành từ cộng đồng sinh viên đã và đang sử dụng UniCricle – nơi kết nối, chia sẻ và lan toả giá trị bền vững.</p>
+      </div>
+      <div class="container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 40
+                },
+                "1200": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 1
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>UniCricle thật sự rất tiện lợi! Mình đã đổi được sách và vài món đồ cũ thay vì phải mua mới. Cảm ơn dự án vì đã mang lại một cộng đồng sinh viên gắn kết.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/1.jpg" class="testimonial-img" alt="">
+                <h3>Lê Phạm Tuấn Khanh</h3>
+                <h4>Sinh viên năm 3</h4>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Mình rất thích tính năng chia sẻ tài liệu học tập! Nhờ UniCricle, mình đã tìm được sách, giáo trình ôn thi rất chất lượng do các anh chị khóa trên chia sẻ.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/2.jpg" class="testimonial-img" alt="">
+                <h3>Dương Em Trúc</h3>
+                <h4>Khoa Công nghệ Thông tin</h4>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Thay vì vứt bỏ, mình đã tặng lại đồ dùng học tập cho các bạn khóa dưới. UniCricle khiến mình thấy việc nhỏ cũng có giá trị lớn.!</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/3.jpg" class="testimonial-img" alt="">
+                <h3>Nguyễn Văn Ngoan</h3>
+                <h4>Sinh viên năm nhất</h4>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>UniCricle tạo ra một môi trường ý nghĩa – không chỉ tiết kiệm mà còn rất nhân văn. Mỗi món đồ được trao đi là một hành động vì cộng đồng.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/4.jpg" class="testimonial-img" alt="">
+                <h3>Nguyễn Hải Đăng</h3>
+                <h4>Thành viên tích cực</h4>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Từ khi biết đến UniCricle, mình thấy việc học và kết nối với bạn bè trong trường trở nên thú vị hơn. Giao diện dễ dùng, ý tưởng rất sáng tạo!</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/5.jpg" class="testimonial-img" alt="">
+                <h3>Trương Huy Đan</h3>
+                <h4>Thành viên mới</h4>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="team" class="team section">
+      <div class="container section-title aos-init aos-animate" data-aos="fade-up">
+        <h2>Đội ngũ UniCricle</h2>
+      </div>
+      <div class="container">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="team-member">
+                <div class="member-img">
+                  <img src="assets/img/team/ngoc.png" alt="Nguyễn Phạm Gia Thế Ngọc">
+                </div>
+                <div class="member-info">
+                  <div class="social">
+                    <a href="#"><i class="bi bi-twitter-x"></i></a>
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                  </div>
+                  <h4>Nguyễn Phạm Gia Thế Ngọc</h4>
+                  <span>Backend & Community</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="team-member">
+                <div class="member-img">
+                  <img src="assets/img/team/khang.png" alt="Nguyễn Đinh Minh Khang">
+                </div>
+                <div class="member-info">
+                  <div class="social">
+                    <a href="https://www.facebook.com/nguyen.inh.minh.khang.383481"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                  </div>
+                  <h4>Nguyễn Đinh Minh Khang</h4>
+                  <span>Coder & Designer</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="team-member">
+                <div class="member-img">
+                  <img src="assets/img/team/trucem.png" alt="Dương Thị Trúc Em">
+                </div>
+                <div class="member-info">
+                  <div class="social">
+                    <a href="#"><i class="bi bi-twitter-x"></i></a>
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                  </div>
+                  <h4>Dương Thị Trúc Em</h4>
+                  <span>Backend & Community</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="team-member">
+                <div class="member-img">
+                  <img src="assets/img/team/huy.png" alt="Trương Đan Huy">
+                </div>
+                <div class="member-info">
+                  <div class="social">
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                  </div>
+                  <h4>Trương Đan Huy</h4>
+                  <span>Forum & Developer</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="team-member">
+                <div class="member-img">
+                  <img src="assets/img/team/nghi.png" alt="Quách Phượng Nghi">
+                </div>
+                <div class="member-info">
+                  <div class="social">
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                  </div>
+                  <h4>Quách Phượng Nghi</h4>
+                  <span>Leader</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="team-member">
+                <div class="member-img">
+                  <img src="assets/img/team/tan.png" alt="Hà Thanh Tấn">
+                </div>
+                <div class="member-info">
+                  <div class="social">
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                  </div>
+                  <h4>Hà Thanh Tấn</h4>
+                  <span>Forum & Developer</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide"></div>
+          <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <div class="container section-title aos-init aos-animate" data-aos="fade-up">
+        <h2>Liên hệ</h2>
+        <p>Nếu bạn có bất kỳ câu hỏi, góp ý hoặc cần hỗ trợ – hãy gửi cho chúng tôi!</p>
+      </div>
+      <div class="container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+          <div class="col-lg-5">
+            <div class="info-wrap">
+              <div class="info-item d-flex aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Địa chỉ</h3>
+                  <p>61 Hoàng Văn Thái, Phường Mỹ Phước, TP. Long Xuyên, An Giang</p>
+                </div>
+              </div>
+              <div class="info-item d-flex aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Gọi cho chúng tôi</h3>
+                  <p>+84 327 956 191</p>
+                </div>
+              </div>
+              <div class="info-item d-flex aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email</h3>
+                  <p>lienhe@unicricle.vn</p>
+                </div>
+              </div>
+              <iframe src="https://www.google.com/maps?q=61%20Ho%C3%A0ng%20V%C4%83n%20Th%C3%A1i%2C%20Long%20Xuy%C3%AAn%2C%20An%20Giang&output=embed" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <form action="forms/contact.php" method="post" class="php-email-form aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+                <div class="col-md-6">
+                  <label for="name-field" class="pb-2">Họ và tên</label>
+                  <input type="text" name="name" id="name-field" class="form-control" required="">
+                </div>
+                <div class="col-md-6">
+                  <label for="email-field" class="pb-2">Email</label>
+                  <input type="email" class="form-control" name="email" id="email-field" required="">
+                </div>
+                <div class="col-md-12">
+                  <label for="subject-field" class="pb-2">Chủ đề</label>
+                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
+                </div>
+                <div class="col-md-12">
+                  <label for="message-field" class="pb-2">Nội dung</label>
+                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+                </div>
+                <div class="col-md-12 text-center">
+                  <div class="loading">Đang gửi...</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Tin nhắn của bạn đã được gửi. Cảm ơn bạn!</div>
+                  <button type="submit">Gửi tin nhắn</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">UniCricle</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>61, Hoàng Văn Thái</p>
+            <p>Mỹ Phước, Thành phố Long Xuyên, An Giang</p>
+            <p class="mt-3"><strong>Điện thoại:</strong> <span>+84 909 999 999</span></p>
+            <p><strong>Email:</strong> <span>lienhe@unicricle.vn</span></p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <a href="#"><i class="bi bi-twitter-x"></i></a>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Liên kết hữu ích</h4>
+          <ul>
+            <li><a href="#">Trang chủ</a></li>
+            <li><a href="#">Về chúng tôi</a></li>
+            <li><a href="#">Dịch vụ</a></li>
+            <li><a href="#">Điều khoản sử dụng</a></li>
+            <li><a href="#">Chính sách bảo mật</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Chúng tôi</h4>
+          <ul>
+            <li><a href="#">Trao đổi đồ cũ</a></li>
+            <li><a href="#">Chia sẻ tài liệu học tập</a></li>
+            <li><a href="#">Diễn đàn sinh viên ẩn danh</a></li>
+            <li><a href="#">Kết nối – Tặng đồ – Nhận đồ</a></li>
+            <li><a href="#">Tích điểm và đóng góp cộng đồng</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-12 footer-newsletter">
+          <h4>Bản tin của chúng tôi</h4>
+          <p>Đăng ký nhận bản tin để nhận thông tin mới nhất về sản phẩm và dịch vụ của chúng tôi!</p>
+          <form action="forms/newsletter.php" method="post" class="php-email-form">
+            <div class="newsletter-form">
+              <input type="email" name="email" placeholder="Nhập email của bạn">
+              <input type="submit" value="Đăng ký">
+            </div>
+            <div class="loading">Đang gửi...</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Đăng ký thành công. Cảm ơn bạn!</div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">UniCricle AGU</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        Designed by <a href="https://www.facebook.com/nguyen.inh.minh.khang.383481">MinHan</a>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center active"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.mySwiper', {
+      slidesPerView: 1,
+      spaceBetween: 20,
+      loop: true,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      breakpoints: {
+        576: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        992: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+        },
+      },
+    });
+  </script>
+
+</body>
+</html>
